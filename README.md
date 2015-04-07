@@ -11,7 +11,7 @@ time-extended contains some time library helpers
 ## Develop
 
 ``` sh
-$ git clone https://github.com/tonyday567/time-extended.hs
+$ git clone https://github.com/tonyday567/time-extended.git
 $ cd time-extended
 
 $ cabal sandbox init
