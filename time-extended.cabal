@@ -1,33 +1,28 @@
-name:                time-extended
-version:             0.1.0.0
--- synopsis:            
--- description:         
--- license:             
-license-file:        LICENSE
-author:              Tony Day
-maintainer:          tonyday567@gmail.com
--- copyright:           
--- category:            
-build-type:          Simple
--- extra-source-files:  
-cabal-version:       >=1.10
+name: time-extended
+version: 0.0.1
+cabal-version: >=1.10
+build-type: Simple
+license: MIT
+license-file: LICENSE.md
+maintainer: Tony Day <tonyday567@gmail.com>
+bug-reports: https://github.com/tonyday567/time-extended/issues
+synopsis: Haskell project time-extended repo 
+description: <https://github.com/tonyday567/time-extended>
+extra-source-files:
+    README.md
 
 library
-  exposed-modules:     Data.Time.TimeZone
-                     , Data.Time.Util
-                     , Data.Time.Extended
+  exposed-modules:     Data.Time.Extended
      
-  -- other-modules:       
-  -- other-extensions:    
-  build-depends:       base >=4.6 && <4.8
-                     , time
-                     , binary
+  build-depends:       base == 4.*
                      , attoparsec
+                     , binary
                      , bytestring
-                     , text
-                     , old-locale
-                     , formatting
                      , containers
+                     , formatting
+                     , old-locale
+                     , text
+                     , time
                      , timezone-series
 
   hs-source-dirs:      src      
